@@ -5,11 +5,6 @@ class House:
         cls.houses_history.append(args[0])
         return super().__new__(cls)
 
-    def __init__(self, first, second, third):
-        print(first)
-        print(second)
-        print(third)
-
     def __init__(self, name, number_floors):
         self.name = name
         self.number_of_floors = number_floors
