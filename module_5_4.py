@@ -3,11 +3,6 @@ class House:
 
     def __new__(cls, *args, **kwargs):
         cls.houses_history.append(args[0])
-        cls.args = 'data'
-        cls.kwargs = {'second': 25, 'third': 3.14}
-        print(*cls.houses_history)
-        print(*cls.args)
-        print(*cls.kwargs)
         return super().__new__(cls)
 
     def __init__(self, first, second, third):
@@ -66,7 +61,9 @@ class House:
         print(self.name, 'cнесён, но он останется в истории')
 
 cucumber = House('ЖК Огурец', 25)
+print(House.houses_history)
 space = House('ЖК Космос', 75)
+print(House.houses_history)
 
 cucumber.go_to(48)
 space.go_to(3)
@@ -108,9 +105,9 @@ print(cucumber.__iadd__(3))
 print(space.__iadd__(3))
 
 birdhouse = House('ЖК Скворечник', 44)
-print(House.houses_history[0], '- первое здание')
-print(House.houses_history[1], '- второе здание')
-print(House.houses_history[-1], '- третье здание')
+print(House.houses_history)
+
+
 
 
 

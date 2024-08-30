@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cf0531c-a32b-4415-abb3-8526ba201179" name="Changes" comment="Перегрузка операторов">
-      <change afterPath="$PROJECT_DIR$/module_5_4.py" afterDir="false" />
+    <list default="true" id="5cf0531c-a32b-4415-abb3-8526ba201179" name="Changes" comment="доработка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_5_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     "Python.module_5_1.executor": "Run",
     "Python.module_5_2.executor": "Run",
     "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -138,13 +138,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724867094376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="доработка">
+      <option name="closed" value="true" />
+      <created>1725019657719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725019657719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Специальные методы классов" />
     <MESSAGE value="Перегрузка операторов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перегрузка операторов" />
+    <MESSAGE value="доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="доработка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
